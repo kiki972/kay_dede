@@ -29,6 +29,11 @@
                 </div>
 
                 <div class="mb-3">
+                    <label for="amount_id" class="form-label">Amount:</label>
+                    <input type="text" id="amount_id" name="amount_id" class="form-control" required>
+                </div>
+
+                <div class="mb-3">
                     <label for="payment_method" class="form-label">Payment Method:</label>
                     <select id="payment_method" name="payment_method" class="form-select" required>
                         <option value="credit_card">Credit Card</option>
